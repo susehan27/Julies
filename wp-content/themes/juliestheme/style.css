@@ -1,0 +1,231 @@
+/*
+Theme Name: Julies
+Author: Susanna
+*/
+
+body {
+    background-color: #fffaf0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fffaf0;
+    width: 100%;
+    height: auto;
+}
+
+a:hover, a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.custom_logo {
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+.img {
+    width: 50%;
+}
+
+.cycle-slide > img {
+    max-width: 800px;
+    height: auto;
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.bebas {
+    font-family: bebas-neue, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+#welcome {
+    width: 100%;
+}
+
+#intro {
+    font-size: 30px;
+    text-align: center;
+}
+
+#first {
+    padding: 50px;
+    margin: 70px;
+}
+
+#plant {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+    width: 100%;
+}
+
+#footer {
+   text-align: center;
+   background-color: #fceac8;
+   padding: 30px;
+   width: 100%;
+   bottom: 0;
+   margin-top: 300px;
+}
+
+.list-group {
+    width: 70%;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.list-group-item {
+    text-align: center;
+    border: none;
+    background: none;
+}
+
+.list-group-item.active  {
+    background-color: #768aad;
+    border: none;
+}
+
+.tab-content {
+    text-align: center;
+}
+
+.menu {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#julies {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+#carousel {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.icons {
+    margin: 0 auto;
+}
+
+.social {
+    width: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.gift {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.blogs {
+    width: 50%;
+    margin: auto;
+}
+
+.card-body {
+    background-color: #fceac8;
+    border: none;
+}
+
+.blogTitle {
+    font-family: bebas-neue, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.blogDate {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.blogPic {
+    width: 30%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.blogContent {
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.blogsButton {
+    text-align: center;
+}
+
+.btnBlog {
+    color: white;
+    background-color: #768aad;
+}
+
+.menu-item-has-children {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background: #768aad;
+}
+
+.sub-menu a {
+    display: block;
+}
+
+.menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu a:hover {
+    color: white;
+}
+
+.menuBoard {
+    background-color: #fceac8;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menuItem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
